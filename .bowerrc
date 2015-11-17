@@ -1,0 +1,6 @@
+{
+	"directory": "web/vendor",
+  "scripts": {
+    "postinstall": "bower-requirejs -c web/js/main.js -e requirejs"
+  }
+}

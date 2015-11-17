@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    script(src='http://code.jquery.com/jquery-latest.min.js')
+    link(rel='stylesheet', href='/css/style.css')
+    // bower:css
+    link(rel='stylesheet', href='/vendor/select2/dist/css/select2.css')
+    // endbower
+
+  body
+    block content
+
+  script(data-main='js/main', src='vendor/requirejs/require.js')

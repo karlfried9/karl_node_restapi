@@ -1,0 +1,31 @@
+{
+  "name": "node-dtm",
+  "version": "1.0.0",
+  "homepage": "",
+  "authors": [
+    ""
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap-sass": "~3.3.4",
+    "underscore": "~1.8.3",
+    "requirejs": "~2.1.18",
+    "select2": "~4.0.0",
+    "autosize": "~3.0.6",
+    "icheck": "~1.0.2",
+    "css-loading-spinners": "~1.0.0",
+    "imperavi-redactor": "~10.0.9"
+  },
+  "devDependencies": {}
+}

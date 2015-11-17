@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  .container
+    h1 Users Page
+    br
+    
+    table
+      thead
+        tr
+          th Username
+          th User ID
+          th Token
+          th FB ID
+      tbody
+        - each item in results
+          tr
+            td= item.username
+            td= item.userId
+            td= item.token
+            td= item.facebookId
